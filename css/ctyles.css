@@ -57,9 +57,7 @@ a {
 /* section 1 */
 
 .section-first {
-  width: 1440px;
-  height: 600px;
-  background-color: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .section-first-title {
