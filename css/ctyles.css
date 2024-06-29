@@ -49,6 +49,7 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
+/* section 1 */
 
 .section-first {
   width: 1440px;
@@ -67,8 +68,6 @@ a {
 .button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-}
-.button-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -77,16 +76,22 @@ a {
   color: #fff;
 }
 
+.button:hover,
+.button:focus
+{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #404bbf;
+}
 
-
-.section2-item-title{
+/* section 2 */
+.section-second-item-title{
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.section2-item-text{
+.section-second-item-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -94,7 +99,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.section3-title{
+/* section 3 */
+
+.section-third-title{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -103,7 +110,7 @@ text-align: center;
 color: #2e2f42;
 }
 
-.section3-employee-name{
+.section-third-employee-name{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -112,7 +119,7 @@ text-align: center;
 color: #2e2f42;
 }
 
-.section3-specialty{
+.section-third-specialty{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
